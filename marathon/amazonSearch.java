@@ -1,4 +1,4 @@
-package maranthon;
+package marathon;
 
 import java.time.Duration;
 
