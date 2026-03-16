@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test thread-count="5" name="Test" verbose="5" parallel="false">
+		<parameter name="url" value="https://login.salesforce.com/"></parameter>
+		<parameter name="username"
+			value="divyaseelan1994.e8571c262657@agentforce.com"></parameter>
+		<parameter name="passWord" value="Summer$012025"></parameter>
+    <classes>
+      <class name="marathon.SalesForce_Delete"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
